@@ -6,6 +6,9 @@ git push origin main
 
 php artisan migrate:fresh --seed
 php artisan db:seed
+
+//Ejecutar Migracion paises
+php artisan world:init
 ____________________________________
 
 
@@ -18,11 +21,3 @@ php artisan make:model ecommerceModel -m
 
 
 php artisan make:livewire user/listUser
-
-
-php artisan make:livewire Workers
-php artisan make:model WorkersM -m
-
-php artisan make:factory WorkersFactory --model=WorkersM
-
-php artisan migrate:fresh --seed

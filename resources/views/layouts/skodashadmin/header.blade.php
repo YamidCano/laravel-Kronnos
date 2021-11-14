@@ -139,19 +139,19 @@
                 <li class="nav-item dropdown dropdown-large">
                     <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown">
                         <div class="user-setting d-flex align-items-center gap-1">
-                            <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}"
-                                class="user-img">
-                            <div class="user-name d-none d-sm-block">{{ Auth::user()->name }}</div>
+                            {{-- <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}"
+                                class="user-img"> --}}
+                            <div class="user-name d-none d-sm-block">Yamid Cano</div>
                         </div>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li>
                             <a class="dropdown-item" href="#">
                                 <div class="d-flex align-items-center">
-                                    <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}"
-                                        class="rounded-circle" width="60" height="60">
+                                    {{-- <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}"
+                                        class="rounded-circle" width="60" height="60"> --}}
                                     <div class="ms-3">
-                                        <h6 class="mb-0 dropdown-user-name">{{ Auth::user()->name }}</h6>
+                                        <h6 class="mb-0 dropdown-user-name">Yamid Cano</h6>
                                         <small class="mb-0 dropdown-user-designation text-secondary">Administrador</small>
                                     </div>
                                 </div>

@@ -175,6 +175,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //Permission
+        Spatie\Permission\PermissionServiceProvider::class,
+
+        Khsing\World\WorldServiceProvider::class,
+
     ],
 
     /*

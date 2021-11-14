@@ -1,6 +1,3 @@
-
-
-
    <!-- Bootstrap bundle JS -->
    <script src="{{ asset('skodashadmin') }}/assets/js/bootstrap.bundle.min.js"></script>
    <!--plugins-->
@@ -24,3 +21,4 @@
        new PerfectScrollbar(".best-product")
        new PerfectScrollbar(".top-sellers-list")
    </script>
+
